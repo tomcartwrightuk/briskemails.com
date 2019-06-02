@@ -10,3 +10,9 @@
 [submodule "themes/kross-hugo-portfolio-template"]
 	path = themes/kross-hugo-portfolio-template
 	url = https://github.com/themefisher/kross-hugo-portfolio-template.git
+[submodule "themes/themes/hugo-lime"]
+	path = themes/themes/hugo-lime
+	url = git@github.com:uicardiodev/hugo-lime.git
+[submodule "themes/hugo-lime"]
+	path = themes/hugo-lime
+	url = git@github.com:uicardiodev/hugo-lime.git

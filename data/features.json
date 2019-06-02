@@ -1,0 +1,26 @@
+{
+  "title" : "How it works",
+  "description" : "From small tweaks to your copy to full template designs, Brisk removes all the barriers",
+  "content" : [
+    {
+      "icon" : "bell",
+      "title" : "Design and edit your emails",
+      "description" : "Use the drag and drop editor to design and edit your compliant and compatible email templates"
+    },
+    {
+      "icon" : "code",
+      "title" : "Insert the personalised elements",
+      "description" : "Use the simple syntax to insert the personalised elements of the emails - for invoices, receipts, bills etc"
+    },
+    {
+      "icon" : "",
+      "title" : "Deploy your designs",
+      "description" : "When you are ready, publish your design - this creates a code change (pull request) in your codebase so your templates remain under source control"
+    },
+    {
+      "icon" : "",
+      "title" : "Send the emails!",
+      "description" : "Your newly designed email are ready for sending through your preferred email gateway. And if any of designs need tweaking, just pop back in the editor and make the changes"
+    }
+  ]
+}

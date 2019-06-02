@@ -1,0 +1,120 @@
+baseurl = "https://www.briskemails.com/"
+languageCode = "en"
+title = "Brisk: transactional emails made easy"
+theme = "vex-hugo"
+publishDir = "docs"
+
+[params]
+  description = ""
+
+  # Put your custom stylesheets and scripts
+  custom_stylesheets = []
+  custom_scripts = []
+
+  # Additional meta
+  [[params.meta]]
+    name = ""
+    description = ""
+
+  # Navigation bar informations
+  [params.navbar]
+    logo = "Brisk."
+    [[params.navbar.menu]]
+      link = "#"
+      text = "HOME"
+    [[params.navbar.menu]]
+      link = "#about"
+      text = "ABOUT"
+    [[params.navbar.menu]]
+      link = "#contact"
+      text = "CONTACT"
+
+  # Header
+  [params.header]
+    title = "Brisk: Transactional emails. Without the friction."
+    text = "Keep your transactional emails on-brand and up to date."
+    secondary = "Design, edit, and deploy your transactional email templates without writing code."
+    [params.header.image]
+      path = "https://storage.googleapis.com/my-project-1470672000889.appspot.com/CompleteIntroGif.gif"
+      alt = "Watch"
+    [params.header.button]
+      link = "#about"
+      text = "I'm interested"
+
+  # Features
+  [params.features]
+    title = "How it works"
+    [params.features.image]
+      path = "https://storage.googleapis.com/my-project-1470672000889.appspot.com/icons8-secured-letter-100.png"
+      alt = "Watch"
+    # Menu at the left of the image
+    [[params.features.left]]
+      title = "Design and edit your emails"
+      text = "Use the drag and drop editor to design and edit your compliant and compatible email templates"
+    [[params.features.left]]
+      title = "Insert the personalised elements"
+      text = "Use the simple syntax to insert the personalised elements of the emails - for invoices, receipts, bills etc"
+    [[params.features.right]]
+      title = "Deploy your designs"
+      text = "When you are ready, publish your design - this creates a code change (pull request) in your codebase so your templates remain under source control"
+    # Menu at the right of the image
+    [[params.features.right]]
+      title = "Send the emails!"
+      text = "Your newly designed email are ready for sending through your preferred email gateway. And if any of designs need tweaking, just pop back in the editor and make the changes"
+  [params.promo]
+    title = "Designed by professional , the benefit for creative gigs"
+    text = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia vel labore, deleniti minima nisi, velit atque quaerat impedit ea maxime sunt accusamus at obcaecati dolor iure iusto omnis quis eum.  \nLorem ipsum dolor sit amet, consectetur adipisicing elit. Quia vel labore, deleniti minima nisi, velit atque quaerat impedit ea maxime sunt accusamus at obcaecati dolor iure iusto omnis quis eum."
+    [params.promo.image]
+      path = "https://storage.googleapis.com/my-project-1470672000889.appspot.com/icons8-secured-letter-100.png"
+      alt = "Watch"
+
+  [params.feature_list]
+    title = "Why Choose Apple Watch"
+    [[params.feature_list.items]]
+      image = "images/showcase/showcase-4.png"
+      title = "Lorem ipsum dolor sit amet."
+      text = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate, sed, assumenda. Tenetur sed esse, voluptas voluptate est veniam numquam, quis magni. Architecto minus suscipit quas, quo harum deserunt consequatur cumque!"
+      button_link = ""
+      button_text = "Check Features"
+    [[params.feature_list.items]]
+      image = "images/showcase/showcase-3.png"
+      title = "Lorem ipsum dolor sit amet."
+      text = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate, sed, assumenda. Tenetur sed esse, voluptas voluptate est veniam numquam, quis magni. Architecto minus suscipit quas, quo harum deserunt consequatur cumque!"
+      button_link = ""
+      button_text = "Check Features"
+
+  [params.gallery]
+    title = "Checkout some amazing Shorts"
+    # Set the image directory to use as base
+    directory = "images/showcase"
+    # Set the images to show in the gallery
+    images = ["showcase-1.png", "showcase-2.png", "showcase-3.png", "showcase-4.png", "showcase-5.png", "showcase-6.png", "showcase-7.png", "showcase-8.png"]
+
+  [params.call_to_action]
+    title = "Get Product Updates"
+    text = "We are still in the process of building Brisk but drop us an email and we'll let you know as soon as it's ready"
+    placeholder = "Your Email Address Here"
+    button_text = "Subscribe"
+
+  [params.testimonials]
+    title = "Watch Review"
+    [[params.testimonials.blocks]]
+      text = "A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents."
+      name = "Jonathon Andrew"
+      position = "CEO, Themefisher"
+      image = "images/avater.png"
+    [[params.testimonials.blocks]]
+      text = "A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents."
+      name = "Jonathon Andrew"
+      position = "CEO, Themefisher"
+      image = "images/avater.png"
+    [[params.testimonials.blocks]]
+      text = "A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents."
+      name = "Jonathon Andrew"
+      position = "CEO, Themefisher"
+      image = "images/avater.png"
+    [params.testimonials.button]
+      link = ""
+      text = "Grab You Product Now"
+
+  # Footer uses navbar data

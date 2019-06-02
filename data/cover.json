@@ -1,0 +1,11 @@
+{
+	"title1" : "Brisk.",
+	"title2" : "Transactional emails without the friction.",
+	"description" : "Keep your transactional emails on-brand and up to date. Design, edit, and deploy your transactional email templates without writing code.",
+	"illustration" : "https://storage.googleapis.com/my-project-1470672000889.appspot.com/CompleteIntroGif.gif",
+	"alt_href" : "#features",
+	"button" : {
+		"text" : "Contact",
+		"href" : "#contact"
+	}
+}
