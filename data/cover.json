@@ -5,7 +5,7 @@
 	"illustration" : "https://storage.googleapis.com/my-project-1470672000889.appspot.com/CompleteIntroGif.gif",
 	"alt_href" : "#features",
 	"button" : {
-		"text" : "Contact",
+		"text" : "Find out more",
 		"href" : "#contact"
 	}
 }
