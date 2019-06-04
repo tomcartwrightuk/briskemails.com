@@ -1,5 +1,5 @@
 baseURL = "http://100.115.92.195:1313/"
 languageCode = "en-us"
-title = "Hugo Lime"
+title = "Brisk"
 theme = "hugo-lime"
 publishDir = "docs"
